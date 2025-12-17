@@ -19,3 +19,14 @@ Definují chování, tón, nástroje a povolené operace.
 Aktivují se přepnutím režimu v Copilot UI.
 Umožňují vytvořit více „osobností“ pro různé workflow.
 Ovlivňují, jak Copilot reaguje v celém chatu, dokud režim nezměníš.
+
+
+| Oblast | `.github/prompts` | `.github/chatmodes` |
+|--------|---------------------|----------------------|
+| Typ souboru | `.prompt.md` | `.chatmode.md` |
+| Spouštění | jednorázově přes `/` | trvalé přepnutí režimu |
+| Účel | definice konkrétního úkolu | definice osobnosti / role / chování |
+| Ovlivnění chatu | pouze při spuštění | po celou dobu aktivního režimu |
+| Obsah | „Co má Copilot udělat“ | „Jak se má Copilot chovat“ |
+| Příklad | „Ověř mi bezpečnost CI pipeline“ | „Security Analyst Mode“ |
+
