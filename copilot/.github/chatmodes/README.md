@@ -27,6 +27,9 @@ Umístění a formát `.chatmode.md` v `.github/chatmodes/` viz příklady a pos
 
 Chat módy umožňují přepnout personu tak, aby v daném módu byly povoleny jiné nástroje (např. terminál/editační schopnosti) a jiné instrukce — proto zde povolujeme editaci a sekvenční práci. [1](https://code.visualstudio.com/docs/copilot/customization/custom-agents)[3](https://harrybin.de/posts/github-copilot-custom-chat-modes/)
 
+Příklad testovacího módu s nástroji jako `findTestFiles`, `codebase`, `terminal` najdeš v návodech ke custom chat modes — slouží to k cílené práci s testy a kódem. [3](https://harrybin.de/posts/github-copilot-custom-chat-modes/)
+
+
 | Oblast | `.github/prompts` | `.github/chatmodes` |
 |--------|---------------------|----------------------|
 | Typ souboru | `.prompt.md` | `.chatmode.md` |
