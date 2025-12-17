@@ -22,6 +22,9 @@ Aktivují se přepnutím režimu v Copilot UI.
 Umožňují vytvořit více „osobností“ pro různé workflow.
 Ovlivňují, jak Copilot reaguje v celém chatu, dokud režim nezměníš.
 
+Pozn.: Chat mód má read‑only charakter a používá pouze kontext z workspace a vyhledávání; přesně takto se doporučuje konfigurovat „plánovací/analytické“ persony. [1](https://code.visualstudio.com/docs/copilot/customization/custom-agents)  
+Umístění a formát `.chatmode.md` v `.github/chatmodes/` viz příklady a postupy. [3](https://harrybin.de/posts/github-copilot-custom-chat-modes/)[4](https://4sysops.com/archives/new-github-copilot-features-in-vs-code-custom-chat-modes-chat-tool-sets-undoing-edits-and-simple-browser/)
+
 
 | Oblast | `.github/prompts` | `.github/chatmodes` |
 |--------|---------------------|----------------------|
