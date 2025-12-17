@@ -2,6 +2,8 @@
 [GitHub Copilot Custom Chat Modes](https://harrybin.de/posts/github-copilot-custom-chat-modes/)
 [Modes of Chatting with GitHub Copilot](https://www.codemag.com/Blog/AIPractitioner/GHCPCM)
 
+Poznámka: V novějších verzích VS Code (od 1.106) byly custom chat modes přejmenovány na custom agents a používají soubory `.agent.md` v `.github/agents/`. Pokud jedeš na této verzi, stačí přejmenovat příponu a přesunout do `.github/agents/` — jinak obsah zůstává stejný.
+
 K čemu slouží:
 Custom chat modes definují trvalý režim osobnosti/role, který si můžeš v chatu aktivně přepnout.
 Jde o .chatmode.md soubory, které vytvářejí vlastní „módy“ Copilota — tedy „jak se má Copilot chovat“.
