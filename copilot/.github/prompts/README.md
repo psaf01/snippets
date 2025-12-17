@@ -20,3 +20,14 @@ Ukládají se do `.github/prompts` v rámci workspace.
 Obsahují YAML hlavičku s popisem a parametry.
 Spouští se na vyžádání (nejsou stálé).
 Definují instrukce pro konkrétní úkol.
+
+
+| Oblast | `.github/prompts` | `.github/chatmodes` |
+|--------|---------------------|----------------------|
+| Typ souboru | `.prompt.md` | `.chatmode.md` |
+| Spouštění | jednorázově přes `/` | trvalé přepnutí režimu |
+| Účel | definice konkrétního úkolu | definice osobnosti / role / chování |
+| Ovlivnění chatu | pouze při spuštění | po celou dobu aktivního režimu |
+| Obsah | „Co má Copilot udělat“ | „Jak se má Copilot chovat“ |
+| Příklad | „Ověř mi bezpečnost CI pipeline“ | „Security Analyst Mode“ |
+
